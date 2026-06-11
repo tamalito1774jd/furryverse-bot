@@ -1,0 +1,49 @@
+# .dockerignore
+
+# Version control
+.git
+.gitignore
+.github
+
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Build artifacts
+dist
+build
+.next
+out
+coverage
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.jest-cache
+coverage
+
+# Temporary
+tmp
+temp
+*.tmp
+
+# Logs
+logs
+*.log
+
+# Documentation
+docs
+README.md
+CONTRIBUTING.md
